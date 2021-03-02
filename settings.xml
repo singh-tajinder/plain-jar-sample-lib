@@ -3,12 +3,12 @@
           xmlns='http://maven.apache.org/SETTINGS/1.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
           <servers>
    <server>
-    <id>nexus-snapshots</id>
+    <id>jfrog-snapshots</id>
       <username>${server.username}</username>
       <password>${server.password}</password>
    </server>
     <server>
-    <id>nexus-releases</id>
+    <id>jfrog-releases</id>
       <username>${server.username}</username>
       <password>${server.password}</password>
    </server> 
