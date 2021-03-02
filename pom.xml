@@ -9,14 +9,16 @@
 	<url>http://www.codefresh.io</url>
 
 <distributionManagement>
-   <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://35.194.57.194:8081/repository/maven-snapshots/</url>
-   </snapshotRepository>
-   <repository>
-      <id>nexus-releases</id>
-      <url>http://35.194.57.194:8081/repository/maven-releases/</url>
-   </repository>
+    <repository>
+        <id>central</id>
+        <name>verimatrix-artifactory-primary-2-releases</name>
+        <url>https://verimatrix.jfrog.io/artifactory/maven-test</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>verimatrix-artifactory-primary-2-snapshots</name>
+        <url>https://verimatrix.jfrog.io/artifactory/maven-test</url>
+    </snapshotRepository>
 </distributionManagement>
 
 	<build>
